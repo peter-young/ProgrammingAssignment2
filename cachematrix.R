@@ -50,6 +50,6 @@ cacheSolve <- function(x, ...) {
         m <- solve(data, ...)
         ## Save to cache
         x$setinverse(m)
-        ## Return Matrix
+        ## Return Inverse
         m
 }
